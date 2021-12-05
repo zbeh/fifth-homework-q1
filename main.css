@@ -1,0 +1,69 @@
+@font-face {
+    src: url(./assets/fonts/IRAN\ Sans\ Bold\ \(mmrostami.blog.ir\).ttf);
+    font-family:irbold;
+}
+@font-face {
+    src: url(./assets/fonts/IRAN\ Sans\ Regular\ \(mmrostami.blog.ir\).ttf);
+    font-family:irreg;
+}
+body {
+    margin: 0;
+}
+header{
+    border-bottom: 2px solid #c7c4c4;
+    height: 15vh;
+    align-items:baseline;
+}
+div.line{
+    height: 3vh;
+    background-color: #3ba720;
+}
+div.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.logo {
+    display: inline-block;
+    width: 10%;
+    vertical-align: middle;
+    font-family: irbold;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    width: 69%;
+    display: inline-block;
+    text-align:start;
+}
+nav a {
+    color: #908c8c;
+    padding: 5px 20PX;
+    font-size: 1em;
+    font-family: irreg;
+    margin-left:3%;
+}
+nav a:hover {
+    color:white;
+    background-color:#3ba720 ;
+    border-radius: 20px;
+}
+div.cta {
+    display: inline-block;
+    width: 10%;
+    vertical-align: middle;
+    font-size: 1em;
+    font-family: irreg;
+    text-align: center;
+}
+div.cta p{
+    width:100%;
+    height:100%;
+    padding: 4px 10px;
+    color: white;
+    background-color: #3ba720;
+    border-radius: 25px;
+
+}
