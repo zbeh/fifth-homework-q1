@@ -17,6 +17,9 @@
 .align-center {
     align-items: center;
 }
+.align-start{
+    align-items: flex-start;
+}
 body {
     margin: 0;
 }
@@ -148,8 +151,66 @@ div.third-image{
     vertical-align:middle;
     text-align: center;
 }
+footer{
+    background-color: #f1eeee;
+    font-family: irreg;
 
+}
+.justify-around{
+    justify-content: space-around;
+}
+div.accompany{
+    text-align: center;
+    padding: 5% 0%;
+    font-size: 1.8em;
+    color: #3ba720;
+    font-weight:bold;
+}
 
+div.card-1, .card-2, .card-3, .card-4{
+    display: inline-block;
+    width: 22%;
+    margin: 1%;
+    height:20vh;
+    padding-top: 2%;
+    vertical-align: top;
+    background-color: white;
+    /**box-shadow: 3px 4px 12px 1px gray;**/
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    margin-bottom:5% ;
+    
+}
+ footer img{
+  width: 70Px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+   transform:translate(-50%,-50%);
+   padding-bottom: 3%;
+}
+.grocery, .coffee, .hotel, .bakery{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform:translate(-50%,-50%);
+    color: #3ba720;
+    font-size:1em;
+    font-weight: 620;
+}
 
-
+div.card-1:hover{
+    border-bottom: 8px solid #3ba720;
+}
+div.card-2:hover{
+    border-bottom: 8px solid #3ba720;
+}
+div.card-3:hover{
+    border-bottom: 8px solid #3ba720;
+}
+div.card-4:hover{
+    border-bottom: 8px solid #3ba720;
+}
 
