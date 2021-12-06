@@ -6,6 +6,17 @@
     src: url(./assets/fonts/IRAN\ Sans\ Regular\ \(mmrostami.blog.ir\).ttf);
     font-family:irreg;
 }
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
 body {
     margin: 0;
 }
@@ -67,3 +78,78 @@ div.cta p{
     border-radius: 25px;
 
 }
+main{
+    text-align: center;
+    margin: 2% 0%;
+}
+span.first-content{
+   
+    color: #6b6969;
+    font-family: irbold;
+    font-size:1.8em ;
+}
+div.second-content{
+    margin-top: 5%;
+    font-family: irreg;
+    font-size: 1em;
+    color: #6b6969;
+}
+div.first-image{
+    display:inline-block;
+    width: 30%;
+    text-align: center;
+
+}
+#one{
+    display:inline-block;
+    height: 170px;
+    width: 170px;
+    background-color: #ffc401;
+    border-radius:50%;
+    vertical-align:middle;
+    text-align: center;
+}
+#one img, #two img, #three img{
+   height: 100px;
+   position: relative;
+   top: 50%;
+   transform:translateY(-50%);
+}
+
+div.second-image{
+    display:inline-block;
+    width:30%;
+    text-align:center; 
+}
+#two{
+    display:inline-block;
+    height: 170px;
+    width: 170px;
+    background-color: #ffc401;
+    border-radius:50%;
+    vertical-align:middle;
+    text-align: center;
+}
+
+
+div.third-image{
+    display:inline-block;
+    width:30%;
+    text-align:center;
+    vertical-align: middle;
+   
+}
+#three{
+    display:inline-block;
+    height: 170px;
+    width: 170px;
+    background-color: #ffc401;
+    border-radius:50%;
+    vertical-align:middle;
+    text-align: center;
+}
+
+
+
+
+
